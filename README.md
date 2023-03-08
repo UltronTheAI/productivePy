@@ -46,7 +46,7 @@ ProductivePy supports the following options:
 - `--clear`: Clear the screen before re-running a file
 - `--autostart`: Auto-restart a file after it ends
 
-# Command and Options, Examples
+## Command and Options, Examples
 - To run a python file.
 ```bash
 $ python3 productivePy.py run $fileName
@@ -83,9 +83,26 @@ $ python3 productivePy.py run $fileName --autostart
 ```bash
 $ python3 productivePy.py run $fileName --args $args
 ```
-# Website
+## Website
 ```bash
 https://ultrontheai.github.io/productivePy/
+```
+## Install productivePy, on linux
+```bash
+## pip3 install typer
+pip3 install typing
+pip3 install colorama
+pip3 install prettytable
+pip3 install secrets
+pip3 install pyinstaller
+git clone "https://github.com/UltronTheAI/productivePy.git"
+pyinstaller -F ./productivePy/productivePy.py
+chmod +x ./dist/productivePy
+mkdir -p ~/bin/productivePy
+cp ./dist/productivePy ~/bin/productivePy
+echo 'export PATH="$HOME/bin/productivePy:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+echo "Installation completed!"
 ```
 ## Authors
 
