@@ -89,7 +89,7 @@ https://ultrontheai.github.io/productivePy/
 ```
 ## Install productivePy, on linux
 ```bash
-## pip3 install typer
+pip3 install typer
 pip3 install typing
 pip3 install colorama
 pip3 install prettytable
