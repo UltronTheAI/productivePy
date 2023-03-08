@@ -89,10 +89,13 @@ https://ultrontheai.github.io/productivePy/
 ```
 ## Install productivePy, on linux
 ```bash
-chmod +x install_on_linux.sh
+$ git clone "https://github.com/UltronTheAI/productivePy.git"
 ```
 ```bash
-./install_on_linux.sh
+$ chmod +x install_on_linux.sh
+```
+```bash
+$ ./install_on_linux.sh
 ```
 ## Authors
 
