@@ -11,7 +11,7 @@ $ pip3 install typer typing colorama prettytable secrets
 ```
 - Clone the productivePy Github repository.
 ```bash
-$ git clone $url
+$ git clone "https://github.com/UltronTheAI/productivePy.git"
 ```
 - Copy the productivePy.py file from ./productivePy/productivePy.py in to your project.
 ```bash
