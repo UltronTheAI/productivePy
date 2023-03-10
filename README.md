@@ -1,6 +1,6 @@
 # ProductivePy
 
-ProductivePy is a productivity tool for Python developers that helps automate repetitive tasks and saves time.
+ProductivePy is a productivity tool for Python developers that helps automate repetitive running code tasks and saves time.
 
 ## Installation
 
