@@ -1,9 +1,11 @@
+echo "#install -"
 pip3 install typer
 pip3 install typing
 pip3 install colorama
 pip3 install prettytable
 pip3 install secrets
 pip3 install pyinstaller
+echo "Cloning productivePy github repo -"
 git clone "https://github.com/UltronTheAI/productivePy.git"
 pyinstaller -F ./productivePy/productivePy.py
 chmod +x ./dist/productivePy
